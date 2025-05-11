@@ -100,7 +100,7 @@ def dfs(graph, node, visited):
             dfs(graph, neighbor, visited)
 
 ```
-            ### 📊 Applications of Traversals
+###  Applications of Traversals
 
 - **Finding connected components**: Using BFS or DFS to identify isolated subgraphs.
 - **Cycle detection**: Identifying cycles in directed and undirected graphs.
@@ -108,9 +108,10 @@ def dfs(graph, node, visited):
 - **Web crawling**: BFS is used by search engines to traverse web pages, ensuring all links are explored.
 - **Solving puzzles and mazes**: DFS can be used to explore possible solutions in puzzle-solving algorithms.
 
+
 ---
 
-### 🔎 Comparing DFS and BFS
+### Comparing DFS and BFS
 
 | Feature          | DFS                  | BFS                          |
 |------------------|----------------------|------------------------------|
@@ -121,7 +122,8 @@ def dfs(graph, node, visited):
 
 ---
 
-### 🧹 Key Takeaways
+
+### Key Takeaways
 
 - Graphs represent relationships between entities and are fundamental structures in computer science.
 - BFS is optimal for unweighted shortest path problems, exploring level by level.
