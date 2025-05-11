@@ -21,36 +21,40 @@ An **Adjacency Matrix** is a 2D array (or matrix) where each cell `matrix[i][j]`
 
 Example (Undirected Graph):
 
+```python
 0 --- 1
 | /
 | /
 2
+```
 
 Adjacency Matrix (Undirected Graph):
 
+```python
 0 1 2
 0 [0, 1, 1]
 1 [1, 0, 1]
 2 [1, 1, 0]
-
+```
 
 ### 2. **Adjacency List**:
 An **Adjacency List** is a more memory-efficient representation where each vertex stores a list of adjacent vertices (neighbors). This representation is especially useful for sparse graphs.
 
 Example (Undirected Graph):
 
+```python
 0 --- 1
 | /
 | /
 2
-
+```
 Adjacency List (Undirected Graph):
 
+```python
 0: [1, 2]
 1: [0, 2]
 2: [0, 1]
-
-
+```
 
 ## Graph Traversal Algorithms
 
