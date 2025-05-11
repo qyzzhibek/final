@@ -84,7 +84,7 @@ def bfs_shortest_path(graph, start, end):
 
 ---
 
-## 🧭 Problem 4: DFS Shortest Path (Unweighted)
+## Problem 4: DFS Shortest Path (Unweighted)
 
 **Problem Statement:** Find one valid path from source to target using DFS.
 
