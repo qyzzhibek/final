@@ -23,7 +23,7 @@ Example (Undirected Graph):
 
 ```python
 0 --- 1
-| /
+|   /
 | /
 2
 ```
@@ -44,7 +44,7 @@ Example (Undirected Graph):
 
 ```python
 0 --- 1
-| /
+|   /
 | /
 2
 ```
